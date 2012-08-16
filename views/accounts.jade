@@ -1,0 +1,5 @@
+h1= title
+p Existing Accounts
+ul
+  each item in data
+    li: a(href='/accounts/#{item.getId()}.pdf') #{item.Name}
